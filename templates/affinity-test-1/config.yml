@@ -1,5 +1,5 @@
 name: Affinity Test 1
-description: |
+description: 
   This template sets up a service that has a label.  Then creates another service that relies on that label.  Both should end up on the same host.
 maintainer: Tani Fiduccia
 license: 9087 license
