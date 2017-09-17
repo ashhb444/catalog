@@ -13,7 +13,7 @@
         World
     - variable: "TEST_STRING"
       label: "String"
-      required: false
+      required: true
       default: "test"
       type: "string"
     - variable: "TEST_PASSWORD"
@@ -28,27 +28,27 @@
         - testing
         - monkey
         - test
-      default: "testing"
+      default: "eee"
       type: "enum"
     - variable: "TEST_DATE"
       label: "Date"
       required: false
-      default: "2015-07-25T19:55:00Z"
+      default: "17-09-2017"
       type: "date"
     - variable: "TEST_INT"
       label: "Integer"
       required: false
-      default: 50
+      default: 50000000000000000
       type: "int"
     - variable: "TEST_FLOAT"
       label: "Float"
       required: false
-      default: 5.2
+      default: 5.2.3.3.3.33
       type: "float"
     - variable: "TEST_BOOLEAN"
       label: "Boolean"
       required: false
-      default: false
+      default: abc
       type: "boolean"
     - variable: "TEST_SERVICE"
       label: "Service"
