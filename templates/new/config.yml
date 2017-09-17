@@ -1,0 +1,8 @@
+name: Affinity Test 1
+description: |
+  This is a new template
+version: 2.0.0
+category: new
+maintainer: Tani Fiduccia
+license: 9087 license
+projectURL: http://www.google.com
