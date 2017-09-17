@@ -1,0 +1,68 @@
+.catalog:
+  name: "One of each question type"
+  version: "2.0.0"
+  description: "Description of one of each question type"
+  minimum_rancher_version: v0.46.0
+  questions:
+    - variable: "TEST_MULTILINE"
+      label: "Multi-Line"
+      required: false
+      type: "multiline"
+      default: |
+        Test
+        World
+    - variable: "TEST_STRING"
+      label: "String"
+      required: true
+      default: "test"
+      type: "string"
+    - variable: "TEST_PASSWORD"
+      label: "Password"
+      required: false
+      default: "test"
+      type: "password"
+    - variable: "TEST_ENUM"
+      label: "Enum"
+      required: false
+      options:
+        - testing
+        - monkey
+        - test
+      default: "eee"
+      type: "enum"
+    - variable: "TEST_DATE"
+      label: "Date"
+      required: false
+      default: "17-09-2017"
+      type: "date"
+    - variable: "TEST_INT"
+      label: "Integer"
+      required: false
+      default: 50000000000000000
+      type: "int"
+    - variable: "TEST_FLOAT"
+      label: "Float"
+      required: false
+      default: 500000000.36
+      type: "float"
+    - variable: "TEST_BOOLEAN"
+      label: "Boolean"
+      required: false
+      default: abc
+      type: "boolean"
+    - variable: "TEST_SERVICE"
+      label: "Service"
+      required: false
+      default: "kopf"
+      type: "service"
+    - variable: "TEST_CERTIFICATE"
+      label: "Certificate"
+      required: false
+      default: "rancher.rocks"
+      type: "certificate"
+    - variable: "TEST_UNKNOWN"
+      label: "Unknown"
+      required: false
+      default: "wha?"
+      type: "unknown"
+
