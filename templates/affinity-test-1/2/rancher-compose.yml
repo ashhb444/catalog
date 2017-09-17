@@ -43,7 +43,7 @@
     - variable: "TEST_FLOAT"
       label: "Float"
       required: false
-      default: 5.2.3.3.3.33
+      default: 500000000.36
       type: "float"
     - variable: "TEST_BOOLEAN"
       label: "Boolean"
