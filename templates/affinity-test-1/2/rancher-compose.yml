@@ -16,12 +16,12 @@
       required: true
       default: "test"
       type: "string"
-- variable: "TEST_PASSWORD"
-   	   label: "Password"
-  required: false
+    - variable: "TEST_PASSWORD"
+      label: "Password"
+      required: false
       default: "test"
-      				type: "password"
-  - variable: "TEST_ENUM"
+      type: "password"
+    - variable: "TEST_ENUM"
       label: "Enum"
       required: false
       options:
