@@ -1,6 +1,6 @@
 .catalog:
   name: "One of each question type"
-  version: "3.0.0"
+  version: "7.0.0"
   description: "Description of one of each question type"
   minimum_rancher_version: v0.46.0
 

@@ -1,9 +1,6 @@
 .catalog:
-  name: "Service Affinity rule check"
+  name: "One of each question type"
   version: "1.0.0"
-  description: Description in the rancher compose.
+  description: "Description of one of each question type"
   minimum_rancher_version: v0.46.0
-servicerelyingonlable:
-  scale: 1
-Service1withlabel:
-  scale: 1
+
