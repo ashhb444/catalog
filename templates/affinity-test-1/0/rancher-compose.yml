@@ -3,4 +3,5 @@
   version: "1.0.0"
   description: "Descriptiond o one of each qsuestion type"
   minimum_rancher_version: v0.46.0
+  upgrade_from:
 
